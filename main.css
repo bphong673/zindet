@@ -1,0 +1,54 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    inset: 0;
+
+    color: white;
+    background: black;
+    border: 0px solid black; 
+    
+
+
+    overflow-x: hidden;
+   
+}
+
+body {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 100%;
+}
+
+html {
+    overflow-y: hidden;
+    width: 100vw;
+    height: max-content;
+}
+
+
+
+#hierarchy {
+    position: relative;
+    top: 50vh;
+    left: 0vw;
+
+    width: fit-content;
+
+}
+
+#animated {
+
+    position: relative;
+
+
+    color: purple;
+    top: 200vh;
+}
+
+.hi {
+    position: relative;
+    left: 10vw;
+}
