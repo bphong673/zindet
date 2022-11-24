@@ -7,7 +7,7 @@
 
     color: white;
     background: black;
-    border: 0px solid black; 
+    border: 0px ; 
     
 
 
@@ -20,35 +20,32 @@ body {
     overflow-y: scroll;
     width: 100%;
     max-width: 100%;
+    scroll-behavior:auto;
+    transition-timing-function: ease-out;
+    
+
 }
 
 html {
-    overflow-y: hidden;
+    overflow-y: visible;
     width: 100vw;
-    height: max-content;
+    height: 100vh;
 }
 
 
 
-#hierarchy {
-    position: relative;
-    top: 50vh;
-    left: 0vw;
+.page {
+    
+    
 
-    width: fit-content;
 
+    scroll-snap-align: start;
+   height: 100vh;
+    margin: auto;
+    width: 100vw;
+
+    border: black solid 1px;
+   background-color: aqua;
+    
 }
 
-#animated {
-
-    position: relative;
-
-
-    color: purple;
-    top: 200vh;
-}
-
-.hi {
-    position: relative;
-    left: 10vw;
-}
